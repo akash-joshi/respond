@@ -69,7 +69,6 @@ export const useState = (initialState: unknown) => {
   };
 
   counter++;
-
   return [currentState, updateState];
 };
 
@@ -97,6 +96,5 @@ export const useEffect = (
   }
 
   hooksArray[counter] = dependencyParams;
-
   counter++;
 };
